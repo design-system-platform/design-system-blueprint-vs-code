@@ -1,0 +1,26 @@
+{
+    "name": "ds-blueprint",
+    "displayName": "DS Blueprint",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "none",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ds-blueprint",
+            "aliases": ["DS Blueprint", "ds-blueprint"],
+            "extensions": [".dsblueprint"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ds-blueprint",
+            "scopeName": "source.dsblueprint",
+            "path": "./syntaxes/ds-blueprint.tmLanguage.json"
+        }]
+    }
+}
